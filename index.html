@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Stop</h1>
-    Nous utilisons Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    et Electron <span id="electron-version"></span>.
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Card Game</title>
+  <script src="script.js" type="module"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="computer-deck deck"></div>
+  <div class="computer-card-slot card-slot"></div>
+  <div class="text"></div>
+  <div class="player-deck deck"></div>
+  <div class="player-card-slot card-slot"></div>
+</body>
 </html>

@@ -20,6 +20,7 @@
     "electron": "^22.2.0"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "pokedex-promise-v2": "^4.1.0"
   }
 }
