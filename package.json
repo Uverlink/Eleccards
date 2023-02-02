@@ -1,0 +1,25 @@
+{
+  "name": "eleccards",
+  "version": "0.0.1",
+  "description": "Electron Card Game",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "test": "test .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "MKP",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.2.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
