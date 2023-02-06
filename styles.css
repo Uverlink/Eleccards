@@ -13,6 +13,7 @@ body {
   cursor: pointer;
   justify-content: center;
   padding-top: 1rem;
+  background: beige;
 }
 
 .deck {
@@ -26,6 +27,7 @@ body {
   border-radius: 0.5rem;
   color: white;
   user-select: none;
+  background: white;
 }
 
 .computer-deck {
@@ -53,6 +55,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 4rem;
+  background: white;
 }
 
 .card.red {
