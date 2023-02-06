@@ -72,24 +72,24 @@ function flipCards() {
   updateDeckCount()
 
   if (isRoundWinner(playerCard, computerCard)) {
-    text.innerText = "Blue Win"
+    text.innerText = "Bleu remporte la manche"
     playerDeck.push(playerCard)
     playerDeck.push(computerCard)
   } else if (isRoundWinner(computerCard, playerCard)) {
-    text.innerText = "Green Win"
+    text.innerText = "Vert remporte la manche"
     computerDeck.push(playerCard)
     computerDeck.push(computerCard)
   } else {
-    text.innerText = "Draw"
+    text.innerText = "Égalité"
     playerDeck.push(playerCard)
     computerDeck.push(computerCard)
   }
 
   if (isGameOver(playerDeck)) {
-    text.innerText = "Green Wins!!"
+    text.innerText = "Vert a gagné!"
     stop = true
   } else if (isGameOver(computerDeck)) {
-    text.innerText = "Blue Wins!!"
+    text.innerText = "Bleu a gagné!"
     stop = true
   }
 }
