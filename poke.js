@@ -18,7 +18,7 @@ const VALUES = [
   "13"
 ]
 
-export default class PokeDeck {
+export default class Deck {
   constructor(cards = freshDeck()) {
     this.cards = cards
   }

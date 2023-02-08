@@ -1,4 +1,5 @@
 import Deck from "./deck.js"
+const P = 0;
 
 const CARD_VALUE_MAP = {
   "2": 2,
